@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="barchar_style">
+        <attr name="barInterval" format="dimension" />
+        <attr name="bar_color" format="color" />
+        <attr name="barWidth" format="dimension" />
+        <attr name="top_text_size" format="dimension" />
+        <attr name="top_text_color" format="color" />
+        <attr name="bottom_text_size" format="dimension" />
+        <attr name="bottom_text_color" format="color" />
+        <attr name="bottom_line_color" format="color" />
+    </declare-styleable>
+</resources>

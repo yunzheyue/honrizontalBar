@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.app8.MySwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="2332352" />
+
+
+            <com.example.app8.MyBarChartView
+                android:id="@+id/mybarCharView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#0900f0ff" />
+        </LinearLayout>
+
+
+    </com.example.app8.MySwipeRefreshLayout>
+
+
+</LinearLayout>
