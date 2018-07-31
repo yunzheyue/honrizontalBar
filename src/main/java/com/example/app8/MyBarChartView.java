@@ -86,6 +86,8 @@ public class MyBarChartView extends View {
         bottom_line_color = typedArray.getColor(R.styleable.barchar_style_bottom_line_color, Color.parseColor("#000000"));
         typedArray.recycle();
         initPaint();
+
+
     }
 
     private int dp2Px(float dipValue) {
