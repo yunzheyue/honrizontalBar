@@ -69,7 +69,7 @@ public class MySwipeRefreshLayout extends SwipeRefreshLayout {
                                 boolean boundary = myBarChartView.isBoundary();
                                 Log.e("TAG", "boundary===" + boundary);
                                 if (boundary) {
-                                    Log.e("TAG", "拦截");
+                                    Log.e("TAG", "拦截1");
                                     getParent().requestDisallowInterceptTouchEvent(false);
                                 } else {
                                     Log.e("TAG", "不拦截");
@@ -78,11 +78,11 @@ public class MySwipeRefreshLayout extends SwipeRefreshLayout {
                                 break;
 
                             }else{
-                                Log.e("TAG", "拦截");
+                                Log.e("TAG", "拦截2");
                                 getParent().requestDisallowInterceptTouchEvent(false);
                             }
                         } else {
-                            Log.e("TAG", "拦截");
+                            Log.e("TAG", "拦截3");
                             getParent().requestDisallowInterceptTouchEvent(false);
                         }
                     }

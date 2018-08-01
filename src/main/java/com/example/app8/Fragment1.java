@@ -41,10 +41,10 @@ public class Fragment1 extends Fragment {
         innerData.add(new BarData(18, "11月"));
         innerData.add(new BarData(348, "12月"));
         innerData.add(new BarData(82, "13月"));
-        innerData.add(new BarData(258, "14月"));
-        innerData.add(new BarData(168, "15月"));
-        innerData.add(new BarData(258, "16月"));
-        innerData.add(new BarData(168, "17月"));
+        innerData.add(new BarData(238, "14月"));
+        innerData.add(new BarData(18, "15月"));
+        innerData.add(new BarData(348, "16月"));
+        innerData.add(new BarData(82, "17月"));
 
         View view = inflater.inflate(R.layout.fragment1, container, false);
         MyBarChartView mybarCharView = (MyBarChartView) view.findViewById(R.id.mybarCharView);
